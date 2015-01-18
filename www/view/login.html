@@ -1,0 +1,32 @@
+<div class="page center vcenter" ng-controller="LoginController">
+
+    <div class="widthbox">
+        <img src="res/icon.png">
+        <div class="row">
+            <div class="col">
+                <h1>Simple Chat Room App</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- input user-id -->
+                <ons-text-input placeholder="id" ng-model="id">
+                </ons-text-input>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="password" placeholder="password" ng-model="password" class="topcoat-text-input">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <ons-button id="loginBtn" ng-click="login(id, password)">
+                    Login
+                </ons-button>
+            </div>
+        </div>
+    </div>
+</div>
+

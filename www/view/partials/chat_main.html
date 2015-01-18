@@ -1,0 +1,16 @@
+<div id="messageDiv2">
+    <ons-row ng-repeat="msg in messages">
+        <ons-col class="ct_left">
+            {{msg.from}}
+            <br>
+            <span class="ct_date">({{msg.date}})</span>
+        </ons-col>
+        <ons-col class="ct_right">
+            {{msg.body}}
+        </ons-col>
+    </ons-row>
+</div>
+<hr>
+<ons-button id="clrBtn" ng-click="clearDB()">
+    clear this room
+</ons-button>

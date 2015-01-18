@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>My App</title>
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsen/css/topcoat-mobile-onsen-ios7.css">
+    <!--<link rel="stylesheet" href="lib/onsen/css/topcoat-mobile-onsen-android4_4.css"> -->
+
+
+    <!-- angularjs -->
+    <script src="lib/onsen/js/angular/angular.js"></script>
+
+    <!-- onsen ui-->
+    <script src="lib/onsen/js/onsenui.js"></script>
+
+    <!-- firebase -->
+    <script src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+    <script src="lib/bower_components/angularfire/dist/angularfire.min.js"></script>
+
+    <!-- phonegap -->
+    <script src="cordova.js"></script>
+
+    <!-- my app script -->
+    <script src="js/app.js"></script>
+
+    <!-- angular controller -->
+    <script src="js/controller/login.js"></script>
+    <script src="js/controller/chat.js"></script>
+
+</head>
+
+<body>
+    <!-- main scrren -->
+    <ons-screen page="view/login.html"></ons-screen>
+</body>
+
+</html>

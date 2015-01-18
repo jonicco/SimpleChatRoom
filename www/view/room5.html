@@ -1,0 +1,15 @@
+<ons-page class="center">
+    <!-- room 5 -->
+    <div ng-controller="ChatController" ng-init="init(5)">
+        <div id="roomHeader">
+            <h1>{{roomNumber}}</h1>
+
+            <span>{{inputName}}さん</span>
+            <br>
+            <ons-text-input class="messageInput" ng-model="msg" ng-keydown="addMessage($event)"></ons-text-input>
+        </div>
+        <hr>
+        <!-- include chat main contents -->
+        <div ng-include="'view/partials/chat_main.html'"></div>
+    </div>
+</ons-page>

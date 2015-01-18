@@ -1,0 +1,31 @@
+.vcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.vcenter > .widthbox {
+    width: 100%;
+}
+.vcenter > .row {
+    position: relative;
+}
+#roomHeader .messageInput {
+    width: 100%;
+}
+#messageDiv2 .row:nth-child(odd) {
+    background: #fff;
+}
+#messageDiv2 .row:nth-child(even) {
+    background: #c6e2e2;
+}
+#messageDiv2 .col {
+    /*    border: 1px solid #ccc;*/
+    /*    background: #c6e2e2;*/
+    overflow: hidden;
+    padding: 4px;
+    color: #999;
+}
+#messageDiv2 .ct_left {
+    width: 100px;
+}
+#messageDiv2 .ct_right {}
